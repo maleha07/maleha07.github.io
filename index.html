@@ -1,140 +1,148 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css" />
-    <title>Theme 1</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <script
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Eagle+Lake&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
+
     type="module"
     src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule=""
+    nomodule=""
       src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
-    ></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
-</head>
-<body>
-        <div class="intro-1">
-            <div class="nav-img"></div>
-            <div class="intro-text">
-              <h1>
-                  Charlotte<br>
-                  Evelyn
-              </h1>
-              </div>
-              <p class="txt-l">
-                Proffesional<br>
-                Model
-              </p>
-              <p class="txt-r">
-                Part-Time<br>
-                Photographer
-              </p>
-            </div >
-            <header class="container header active" id="home">
-              <div class="header-content">
-                  <div class="left-header">
-                      <div class="h-shape"></div>
-            <div class="image">
-              <img src="abt2.jpg" class="image" alt="">
+    </script>
+    <script src="https://kit.fontawesome.com/53b490439a.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+        <div class="row nav  text-center">
+          <div class="col-lg-6 nav-txt">
+                Charlotte<br>
+                Evelyn
           </div>
-      </div>
-      <div class="right-header">
-          <h1 class="name">
-              More About Me
-          </h1>
-          <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, libero?
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque blanditiis sed aut!
-          </p>
-          <p>
-            I've always looked to fashion for inspiration. I'm heavily influenced by color, movement, and flow.
-          </p>
-</div>
-</div>
-</header>
-<h2 class="prev-hd">Some of my previous work</h2>
-<div class="prev-work">
-  <div class="prev1"><img src="prev1.jpg" class="primg"></div>
-  <div class="prev2"><img src="prev2.jpg" class="primg"><h2>A focus on the body</h2><p>A self-directed shoot to show flow and movement.</p></div>
-
-</div>
-<div class="showcase-sec">
-  <div class="sc1"><img src="showcase1.png" class="scimg" height="500px"><h2>Shoot Concept</h2><p>To make the shoot look effortless and organic, I took timed stills of me in the middle of a dance.</p></div>
-  <div class="sc2" ><img src="showcase2.jpg" class="scimg" height="600px"></div>
-</div>
-<div class="stats">
-  <div class="st1"><h2>Modeling <br>Stats</h2><ul>
-    <li>Height : 5'9"</li>
-    <li>Weight : 108lbs</li>
-    <li>Dress Size : 2</li>
-    <li>Shoe Size : 9</li>
-    <li>Hair/Eyes : Brown/Green</li>
-  </ul></div>
-  <div class="st2" ><img src="stats.jpg" class="stimg" height="550px"></div>
-</div>
-<section class="section-cta" id="cta">
-  <div class="container">
-    <div class="cta">
-      <div class="cta-text-box">
-        <p class="cta-text">
-         Lets Work Together!
-        </p>
-
-        <form class="cta-form" name="sign-up" netlify>
-          <div>
-            <label for="full-name">Full Name</label>
-            <input
-              id="full-name"
-              type="text"
-              placeholder="John Smith"
-              name="full-name"
-              required
-            />
+          <div class="col-lg-6">
+        <img class="nav-img" src="navimg.jpg" alt="nav-img" width="450px" height="650px">
           </div>
-
-          <div>
-            <label for="email">Email address</label>
-            <input
-              id="email"
-              type="email"
-              placeholder="me@example.com"
-              name="email"
-              required
-            />
+        </div>
+        <div class="row">
+            <div class="col txt-l">
+                <p>                Proffesional<br>
+                    Model</p>
+            </div>
+            <div class="col txt-r">
+                <p> Part-Time<br>
+                    Photographer</p>
+            </div>
+          </div>  
+          <div class="row text-center abt">
+            <div class="col">
+            <img src="abt2.jpg" alt="about image" class="abt-img" height="450px" width="500px">
+            </div>
+            <div class="col abt-txt">
+                <h1>
+                    More About Me
+                </h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, libero?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque blanditiis sed aut!
+                </p>
+                <p>
+                    I've always looked to fashion for inspiration. I'm heavily influenced by color, movement, and flow.
+                  </p>
+            </div>
+          </div> 
+          <h2 class="prev text-center">Some Of My Previous Work</h2>
+          <div class="row">
+            <div class="col">
+                <img src="prev1.jpg" class="prev1" alt="previous work" height="400px" width="600px">
+            </div>
+            <div class="col prev2">
+            <img src="prev2.jpg" alt="previous work" class="prev2" height="400px" width="600px">
+            <h3>A focus on the body</h3>
+                <p>A self-directed shoot to show flow and movement.</p>
+            </div>
+          </div> 
+          <div class="row showcase text-center">
+            <div class="col">
+                <img src="showcase1.png" alt="show case" height="350px" width="400px" class="sc1"><h2>Shoot Concept</h2><p>To make the shoot look effortless and organic,<br> I took timed stills of me in the middle of a dance.</p>
+            </div>
+            <div class="col">
+                <img src="showcase2.jpg" alt="show case picture" height="450px" width="420px" class="sc2">
+            </div>
           </div>
-
-          <div>
-            <label for="select-where">How did you hear about us?</label>
-            <select id="select-where" name="select-where" required>
-              <option value="">Choose one option:</option>
-              <option value="friends">Friends and family</option>
-              <option value="youtube">YouTube video</option>
-              <option value="podcast">Podcast</option>
-              <option value="ad">Facebook ad</option>
-              <option value="others">Others</option>
-            </select>
+          <div class="row stats">
+            <div class="col st1">
+                <h2>Modeling <br>Stats</h2><ul>
+                    <li>Height : 5'9"</li>
+                    <li>Weight : 108lbs</li>
+                    <li>Dress Size : 2</li>
+                    <li>Shoe Size : 9</li>
+                    <li>Hair/Eyes : Brown/Green</li>
+                  </ul>
+            </div>
+            <div class="col">
+                <img src="stats.jpg" alt="model" class="st2" height="500px" width="400px">
+            </div>
           </div>
-          <button class="btn-form">Contact now</button>
-        </form>
-      </div>
-      <div
-        class="cta-img-box"
-        role="img"
-        aria-label=" "
-      ></div>
-    </div>
-  </div>
-</section>
-<hr>
-<footer class="footer-distributed">
+          <div class="row section-cta text-center">
+            <div class="col cta">
+                <div class="cta-text-box">
+                    <p class="cta-text">
+                     Lets Work Together!
+                    </p>
+            
+                    <form class="cta-form" name="sign-up" netlify>
+                      <div>
+                        <label for="full-name">Full Name</label>
+                        <input
+                          id="full-name"
+                          type="text"
+                          placeholder="John Smith"
+                          name="full-name"
+                          required
+                        />
+                      </div>
+            
+                      <div>
+                        <label for="email">Email address</label>
+                        <input
+                          id="email"
+                          type="email"
+                          placeholder="me@example.com"
+                          name="email"
+                          required
+                        />
+                      </div>
+            
+                      <div>
+                        <label for="select-where">How did you hear about us?</label>
+                        <select id="select-where" name="select-where" required>
+                          <option value="">Choose one option:</option>
+                          <option value="friends">Friends and family</option>
+                          <option value="youtube">YouTube video</option>
+                          <option value="podcast">Podcast</option>
+                          <option value="ad">Facebook ad</option>
+                          <option value="others">Others</option>
+                        </select>
+                      </div>
+                      <button class="btn-form">Contact now</button>
+                    </form>
+                  </div>
+                  <div
+                    class="cta-img-box"
+                    role="img"
+                    aria-label=" "
+                  ></div>
+                </div>
+            </div>
+          </div>
+          <footer class="footer-distributed">
+    <!-- <hr> -->
 
 			<div class="footer-left">
 
@@ -167,5 +175,6 @@
         </div>
 			</div>
 		</footer>
+        </div>
 </body>
 </html>
