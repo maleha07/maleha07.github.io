@@ -1,181 +1,192 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Theme 1</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link href="style.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Eagle+Lake&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500&display=swap" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
 
-    type="module"
-    src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
-    nomodule=""
-      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Theme 1</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <link href="style.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Eagle+Lake&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500&display=swap"
+    rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
+
+      type = "module"
+      src = "https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+      nomodule = ""
+      src = "https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
     </script>
-    <script src="https://kit.fontawesome.com/53b490439a.js" crossorigin="anonymous"></script>
-  </head>
-  <body>
-    <div class="container-fluid">
-        <div class="row nav  text-center">
-          <div class="col-lg-6 nav-txt">
-                Charlotte<br>
-                Evelyn
-          </div>
-          <div class="col-lg-6">
-        <img class="nav-img" src="navimg.jpg" alt="nav-img" width="450px" height="650px">
-          </div>
+  <script src="https://kit.fontawesome.com/53b490439a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="container-fluid hero-section">
+    <div class="row hero-row text-center">
+      <div class="col-lg-4 offset-lg-2 col-sm-12">
+        <h1 class="nav-txt">Charlotte Evelyn</h1>
+      </div>
+      <div class="col-lg-4 col-sm-12">
+        <img class="nav-img img-fluid" src="navimg.jpg" alt="nav-img" width="450px" height="650px">
+      </div>
+    </div>
+    <div class="d-flex hero-content justify-content-between">
+      <div class="txt-l">
+        <p> Proffesional<br>
+          Model</p>
+      </div>
+      <div class="txt-r">
+        <p> Part-Time<br>
+          Photographer</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid about-section">
+    <div class="row text-center about-section-row">
+      <div class="col-lg-6 col-sm-12">
+        <img src="abt2.jpg" alt="about image" class="abt-img img-fluid" height="450px" width="500px">
+      </div>
+      <div class="col-lg-6 col-sm-12 mt-2 mt-sm-0 px-5">
+        <h1 class="about-heading">
+          More About Me
+        </h1>
+        <p class="about-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, libero?
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque blanditiis sed aut!
+        </p>
+        <p class="about-text">
+          I've always looked to fashion for inspiration. I'm heavily influenced by color, movement, and flow.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid showcase-section">
+    <h2 class="showcase-section-heading text-center">Some Of My Previous Work</h2>
+    <div class="d-md-flex justify-content-around">
+      <div class="col-12 text-center col-md-6 col-lg-4">
+        <img src="prev1.jpg" class="img-fluid showcase-image showcase-image-1" alt="previous work">
+      </div>
+      <div class="col-12 mt-4 mt-sm-0 col-md-6 col-lg-4 showcase-2">
+        <img src="prev2.jpg" alt="previous work" class="img-fluid showcase-image showcase-image-2">
+        <div class="showcase-text text-left">
+          <h3>A focus on the body</h3>
+          <p>A self-directed shoot to show flow and movement.</p>
         </div>
-        <div class="row">
-            <div class="col txt-l">
-                <p>                Proffesional<br>
-                    Model</p>
-            </div>
-            <div class="col txt-r">
-                <p> Part-Time<br>
-                    Photographer</p>
-            </div>
-          </div>  
-          <div class="row text-center abt">
-            <div class="col">
-            <img src="abt2.jpg" alt="about image" class="abt-img" height="450px" width="500px">
-            </div>
-            <div class="col abt-txt">
-                <h1>
-                    More About Me
-                </h1>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, libero?
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque blanditiis sed aut!
-                </p>
-                <p>
-                    I've always looked to fashion for inspiration. I'm heavily influenced by color, movement, and flow.
-                  </p>
-            </div>
-          </div> 
-          <h2 class="prev text-center">Some Of My Previous Work</h2>
-          <div class="row">
-            <div class="col">
-                <img src="prev1.jpg" class="prev1" alt="previous work" height="400px" width="600px">
-            </div>
-            <div class="col prev2">
-            <img src="prev2.jpg" alt="previous work" class="prev2" height="400px" width="600px">
-            <h3>A focus on the body</h3>
-                <p>A self-directed shoot to show flow and movement.</p>
-            </div>
-          </div> 
-          <div class="row showcase text-center">
-            <div class="col">
-                <img src="showcase1.png" alt="show case" height="350px" width="400px" class="sc1"><h2>Shoot Concept</h2><p>To make the shoot look effortless and organic,<br> I took timed stills of me in the middle of a dance.</p>
-            </div>
-            <div class="col">
-                <img src="showcase2.jpg" alt="show case picture" height="450px" width="420px" class="sc2">
-            </div>
-          </div>
-          <div class="row stats">
-            <div class="col st1">
-                <h2>Modeling <br>Stats</h2><ul>
-                    <li>Height : 5'9"</li>
-                    <li>Weight : 108lbs</li>
-                    <li>Dress Size : 2</li>
-                    <li>Shoe Size : 9</li>
-                    <li>Hair/Eyes : Brown/Green</li>
-                  </ul>
-            </div>
-            <div class="col">
-                <img src="stats.jpg" alt="model" class="st2" height="500px" width="400px">
-            </div>
-          </div>
-          <div class="row section-cta text-center">
-            <div class="col cta">
-                <div class="cta-text-box">
-                    <p class="cta-text">
-                     Lets Work Together!
-                    </p>
-            
-                    <form class="cta-form" name="sign-up" netlify>
-                      <div>
-                        <label for="full-name">Full Name</label>
-                        <input
-                          id="full-name"
-                          type="text"
-                          placeholder="John Smith"
-                          name="full-name"
-                          required
-                        />
-                      </div>
-            
-                      <div>
-                        <label for="email">Email address</label>
-                        <input
-                          id="email"
-                          type="email"
-                          placeholder="me@example.com"
-                          name="email"
-                          required
-                        />
-                      </div>
-            
-                      <div>
-                        <label for="select-where">How did you hear about us?</label>
-                        <select id="select-where" name="select-where" required>
-                          <option value="">Choose one option:</option>
-                          <option value="friends">Friends and family</option>
-                          <option value="youtube">YouTube video</option>
-                          <option value="podcast">Podcast</option>
-                          <option value="ad">Facebook ad</option>
-                          <option value="others">Others</option>
-                        </select>
-                      </div>
-                      <button class="btn-form">Contact now</button>
-                    </form>
-                  </div>
-                  <div
-                    class="cta-img-box"
-                    role="img"
-                    aria-label=" "
-                  ></div>
-                </div>
-            </div>
-          </div>
-          <footer class="footer-distributed">
-    <!-- <hr> -->
+      </div>
+    </div>
+    <div class="d-md-flex mt-5 justify-content-around">
+      <div class="col-lg-4">
+        <img src="showcase1.png" alt="show case" class="img-fluid showcase-image mb-3">
+        <h2>Shoot Concept</h2>
+        <p>To make the shoot look effortless and organic,<br> I took timed stills of me in the middle of a dance.</p>
+      </div>
+      <div class="col-lg-4">
+        <img src="showcase2.jpg" alt="show case picture" class="img-fluid showcase-image">
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="d-md-flex stats justify-content-around">
+      <div class="st1">
+        <h2>Modeling <br>Stats</h2>
+        <ul>
+          <li>Height : 5'9"</li>
+          <li>Weight : 108lbs</li>
+          <li>Dress Size : 2</li>
+          <li>Shoe Size : 9</li>
+          <li>Hair/Eyes : Brown/Green</li>
+        </ul>
+      </div>
+      <div class="">
+        <img src="stats.jpg" alt="model" class="st2 img-fluid" height="500px" width="400px">
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row section-cta px-3 text-center">
+      <div class="col-md-8 col-12 pr-3 pl-3 pl-sm-0 pr-sm-0 cta">
+        <div class="cta-text-box">
+          <p class="cta-text">
+            Lets Work Together!
+          </p>
 
-			<div class="footer-left">
-
-				<h3>Company<span>logo</span></h3>
-
-				<p class="footer-links">
-					<a href="#">Home</a>
-					·
-					<a href="#">Blog</a>
-					·
-					<a href="#">Pricing</a>
-					·
-					<a href="#">About</a>
-					·
-					<a href="#">Faq</a>
-					·
-					<a href="#">Contact</a>
-				</p>
-
-				<p class="footer-company-name">Company Name © 2015</p>
-
-				<div class="footer-icons">
-
-					<a href="#"><i class="fa fa-facebook"></i></a>
-					<a href="#"><i class="fa fa-twitter"></i></a>
-					<a href="#"><i class="fa fa-dribbble"></i></a>
-					<a href="#"><i class="fa fa-behance"></i></a>
-					<a href="#"><i class="fa fa-linkedin"></i></a>
-				
+          <form class="cta-form" name="sign-up" netlify>
+            <div class="row mt-4 mt-sm-0">
+              <div class="col-md-6">
+                <label for="full-name">Full Name</label>
+                <input id="full-name" type="text" placeholder="John Smith" name="full-name" required />
+              </div>
+              <div class="col-md-6 mt-4 mt-sm-0">
+                <label for="email">Email address</label>
+                <input id="email" type="email" placeholder="me@example.com" name="email" required />
+              </div>
+            </div>
+            <div class="row mt-4">
+              <div class="col-md-6">
+                <label for="select-where">How did you hear about us?</label>
+                <select id="select-where" name="select-where" required>
+                  <option value="">Choose one option:</option>
+                  <option value="friends">Friends and family</option>
+                  <option value="youtube">YouTube video</option>
+                  <option value="podcast">Podcast</option>
+                  <option value="ad">Facebook ad</option>
+                  <option value="others">Others</option>
+                </select>
+              </div>
+              <div class="col-md-6 mt-4 mt-sm-0 align-self-end">
+                <button class="btn-form">Contact now</button>
+              </div>
+            </div>
+          </form>
         </div>
-			</div>
-		</footer>
-        </div>
+      </div>
+      <div class="col-md-4 d-none d-sm-block col-sm-12 pl-3 pr-3 pr-sm-0 pt-0 cta-img pl-sm-0">
+        <div class="cta-img-box"></div>
+      </div>
+
+    </div>
+  </div>
+  <footer class="footer-distributed">
+
+    <div class="footer-left">
+
+      <h3>Company<span>logo</span></h3>
+
+      <p class="footer-links">
+        <a href="#">Home</a>
+        ·
+        <a href="#">Blog</a>
+        ·
+        <a href="#">Pricing</a>
+        ·
+        <a href="#">About</a>
+        ·
+        <a href="#">Faq</a>
+        ·
+        <a href="#">Contact</a>
+      </p>
+
+      <p class="footer-company-name">Company Name © 2015</p>
+
+      <div class="footer-icons">
+
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-dribbble"></i></a>
+        <a href="#"><i class="fa fa-behance"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+
+      </div>
+    </div>
+  </footer>
 </body>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
 </html>
